@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{038BDFAA-0215-44C8-8D43-4DCDF3A10180}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{285DCFBA-ED00-41CF-886C-A7A50E8E50CE}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Quixilver.Common", "src\Quixilver.Common\Quixilver.Common.xproj", "{6205083D-FE22-45E9-BE84-A83AFFC13D89}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Quixilver.Common.UnitTests", "test\Quixilver.Common.UnitTests\Quixilver.Common.UnitTests.xproj", "{8D17377E-EF90-4C3C-B28D-743438EFDDA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6205083D-FE22-45E9-BE84-A83AFFC13D89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6205083D-FE22-45E9-BE84-A83AFFC13D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6205083D-FE22-45E9-BE84-A83AFFC13D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6205083D-FE22-45E9-BE84-A83AFFC13D89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D17377E-EF90-4C3C-B28D-743438EFDDA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D17377E-EF90-4C3C-B28D-743438EFDDA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D17377E-EF90-4C3C-B28D-743438EFDDA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D17377E-EF90-4C3C-B28D-743438EFDDA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6205083D-FE22-45E9-BE84-A83AFFC13D89} = {038BDFAA-0215-44C8-8D43-4DCDF3A10180}
+		{8D17377E-EF90-4C3C-B28D-743438EFDDA4} = {285DCFBA-ED00-41CF-886C-A7A50E8E50CE}
+	EndGlobalSection
+EndGlobal
